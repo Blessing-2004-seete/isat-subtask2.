@@ -1,4 +1,4 @@
-
+#include <iostream>
 #include <string>
 #include <bitset>
 #include <cstdlib>   // for rand() and srand()
@@ -15,7 +15,7 @@ string decimalToBinary(int decimalNumber) {
         decimalNumber /= 2;
     }
     return binary;
-}
+
 
 // Function 2: Binary to Decimal
 int binaryToDecimal(const string &binaryString) {
