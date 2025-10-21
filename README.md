@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+
 #include <bitset>
 #include <cstdlib>   // for rand() and srand()
 #include <ctime>     // for time()
