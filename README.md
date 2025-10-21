@@ -14,8 +14,7 @@ string decimalToBinary(int decimalNumber) {
         binary = char((decimalNumber % 2) + '0') + binary;
         decimalNumber /= 2;
     }
-    return binary;
-
+  
 
 // Function 2: Binary to Decimal
 int binaryToDecimal(const string &binaryString) {
